@@ -24,7 +24,7 @@ public class AnimeController {
 
     @GetMapping
     public ResponseEntity<List<Anime>> list(){
-        log.info(dateUtil.formatLocalDateTimeToBaseStryle(LocalDateTime.now()));
+            log.info(dateUtil.formatLocalDateTimeToBaseStryle(LocalDateTime.now()));
         return ResponseEntity.ok(animeService.ListAll());
     }
 

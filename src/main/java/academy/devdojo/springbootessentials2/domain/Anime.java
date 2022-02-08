@@ -21,13 +21,4 @@ public class Anime {
     private Long id;
     private String name;
 
-    public Anime(String name){
-        this.name = name;
-    }
-    public Anime(String name, Long id){
-        this.id = id;
-        this.name = name;
-    }
-
-
 }
